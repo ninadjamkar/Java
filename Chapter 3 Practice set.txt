@@ -1,0 +1,61 @@
+// cwh chapter 3 - String methods
+
+/*
+Q1)
+public class Main {
+    public static void main(String[] args) {
+        String name = "NINAD Y JAMKAR";
+        int length = name.length();
+        System.out.println(length);
+
+        String lower = name.toLowerCase();
+        System.out.println(lower);
+    }
+}
+ */
+
+/*
+Q2)
+public class Main {
+    public static void main(String[] args) {
+        String text = "Space should be replaced by underscores";
+        text = text.replace(" ", "_");
+        System.out.println(text);
+    }
+}
+ */
+
+/*
+Q3)
+public class Main {
+    public static void main(String[] args) {
+        String letter = "Dear <|name|>, Thanks a lot!";
+        letter = letter.replace("<|name|>", "Ninad");
+        System.out.println(letter);
+    }
+}
+ */
+
+
+/*
+Q4)
+public class Main {
+    public static void main(String[] args) {
+        String mystr = "This string contains   double and triple spaces";
+        System.out.println(mystr.indexOf("  "));
+        System.out.println(mystr.indexOf("   "));
+    }
+}
+*/
+
+
+
+/* 
+Q5)
+public class Main {
+    public static void main(String[] args) {
+        String mystr = "This string  contains double  \n\tand triple\n\t spaces";
+        System.out.println(mystr);
+    }
+}
+*/
