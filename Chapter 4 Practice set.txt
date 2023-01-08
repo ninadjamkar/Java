@@ -1,0 +1,140 @@
+/*
+Q1)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter score of subject 1 = ");
+        float marks1 = sc.nextFloat();
+        System.out.println("Enter score of subject 2 = ");
+        float marks2 = sc.nextFloat();
+        System.out.println("Enter score of subject 3 = ");
+        float marks3 = sc.nextFloat();
+
+        float percentage = ((marks1 + marks2 + marks3)/3);
+        System.out.println("percentage = "+ percentage);
+
+        if (marks1 > 33 && marks2 > 33 && marks3 > 33 && percentage > 40) {
+            System.out.println("Congratulations, you have scored "+ percentage +"% , You have passed the exam.");
+        }
+        else {
+            System.out.println("We regret to inform you that you have failed the exam.");
+        }
+    }
+}
+*/
+
+
+/*
+Q2)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your income = ");
+        double income = sc.nextDouble();
+
+        if (income < 250000) {
+            System.out.println("0% income tax");
+            System.out.println("Income tax = 0");
+        }
+
+        else if (income > 250000 && income < 500000) {
+            System.out.println("5% income tax");
+            double incometax = (income)*0.05;
+            System.out.println("Income tax = "+ incometax);
+        }
+
+        else if (income > 500000 && income < 1000000) {
+            System.out.println("20% income tax");
+            double incometax = (income)*0.2;
+            System.out.println("Income tax = "+ incometax);
+        }
+
+        else {
+            System.out.println("30% income tax");
+            double incometax = (income)*0.3;
+            System.out.println("Income tax = "+ incometax);
+        }
+    }
+}
+*/
+
+
+/*
+Q3)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] arg) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of day = ");
+        int day = sc.nextInt();
+
+        if (day == 1) {
+            System.out.println("Today is Monday");
+        }
+        else if (day == 2) {
+            System.out.println("Today is Tuesday");
+        }
+        else if (day == 3) {
+            System.out.println("Today is Wednesday");
+        }
+        else if (day == 4) {
+            System.out.println("Today is Thrusday");
+        }
+        else if (day == 5) {
+            System.out.println("Today is Friday");
+        }
+        else if (day == 6) {
+            System.out.println("Today is Saturday");
+        }
+        else {
+            System.out.println("Today is Sunday");
+        }
+    }
+}
+*/
+
+
+/*
+Q4)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] arg) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter year = ");
+        int year = sc.nextInt();
+
+        if ( year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println(year +" is a leap year");
+        }
+        else {
+            System.out.println(year +" is not a leap year.");
+        }
+
+    }
+}
+*/
+
+
+/*
+Q5)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] arg) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter website = ");
+        String website = sc.next();
+
+        if (website.endsWith(".in")) {
+            System.out.println("Indian website");
+        }
+        else if (website.endsWith(".edu")) {
+            System.out.println("Educational website");
+        }
+        else if (website.endsWith(".org")) {
+            System.out.println("Organizational website");
+        }
+    }
+}
+*/
