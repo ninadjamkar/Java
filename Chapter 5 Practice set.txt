@@ -1,0 +1,88 @@
+//Chapter 5 - LOOPS
+
+/*
+Q1)
+
+public class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=n; i>0; i--) {
+            for(int j=0; j<i; j++) {
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+    }
+}
+*/
+
+
+/*
+Q2)
+public class Main {
+    public static void main(String[] args) {
+        int sum=0;
+        int n=5;
+        for(int i=0; i<n; i++) {
+            sum = sum + (2*i);
+        }
+        System.out.print("Sum of first "+n+" even numbers = "+ sum);
+    }
+}
+*/
+
+
+/*
+Q3)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number = ");
+        int i = sc.nextInt();
+        System.out.println("Multiplication Table of "+i);
+        for(int j=1; j<=10; j++) {
+            System.out.println(i+" X "+j+" = "+ i*j);
+        }
+    }
+}
+*/
+
+
+
+/*
+Q4)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number = ");
+        int i = sc.nextInt();
+        System.out.println("Multiplication Table of "+i+" in reverse order");
+        for(int j=10; j>=1; j--) {
+            System.out.println(i+" X "+j+" = "+ i*j);
+        }
+    }
+}
+*/
+
+
+
+//Q5
+/*
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number = ");
+        int n = sc.nextInt();
+        int i = 1;
+        int factorial = 1;
+        while(n>i) {
+            factorial *= i+1;
+            i++;
+        }
+        System.out.println("Factorial of "+n+" = "+ factorial);
+    }
+}
+*/
